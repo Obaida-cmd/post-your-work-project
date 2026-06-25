@@ -7,6 +7,8 @@ Chicago, New York City, and Washington. It allows users to filter data
 by city, month, and day to explore usage statistics such as trip
 durations, popular stations, and travel patterns.
 
+This project was developed as part of the Udacity Programming for Data Science nanodegree.
+
 ## Information about how to use your project
 
 ### Step-by-step instructions for running the project:
