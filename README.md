@@ -1,27 +1,38 @@
->**Note**: Please **fork** this Udacity repository so you have a **remote** repository in **your** GitHub account. Then you can clone the remote repository to your local machine. Later, as a part of the project, you will push your changes to the remote repository in your GitHub account.
+# Bikeshare Data Analysis Project
 
+## Description
 
-# Project Title
-
-Describe what your project is about and what it does
+This project analyzes bikeshare data from three major US cities:
+Chicago, New York City, and Washington. It allows users to filter data
+by city, month, and day to explore usage statistics such as trip
+durations, popular stations, and travel patterns.
 
 ## Information about how to use your project
 
-This could include:
+### Step-by-step instructions for running the project:
 
-- Step-by-step instructions for installing or setting up your project.
-- Any software dependencies that need to be installed.
-- Instructions and examples for how to use your project, including any helpful code snippets.
-- Common issues and troubleshooting tips
+1.  Make sure you have Python installed (version 3.x).
+2.  Install required libraries: pip install pandas
+3.  Run the program: python bikeshare.py
+
+### Software dependencies:
+
+-   Python 3
+-   pandas
+
+### Common issues and troubleshooting:
+
+-   Ensure CSV files are in the same folder as bikeshare.py
+-   Check spelling of city names
 
 ## Contribution guidelines
 
-If you welcome contributions, provide guidelines on how others can contribute to your project.
+Fork the repo, create a branch, make changes, and submit a pull request.
 
 ## Credits
 
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity Programming for Data Science with Python
 
 ## Date created
 
-Include the date you created this project and README file.
+June 25, 2026
