@@ -1,6 +1,9 @@
 import time
 import pandas as pd
 
+# Load dataset for selected city
+# Filter data by month and day
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -22,7 +25,7 @@ def get_filters():
         city = input('Would you like to see data for Chicago, New York City, or Washington?\n').lower()
         if city in CITY_DATA:
             break
-        print('That\'s not a valid city. Please choose Chicago, New York City, or Washington.')
+        print('That\'s not a valid city name. Please choose Chicago, New York City, or Washington.')
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
@@ -36,12 +39,13 @@ def get_filters():
         day = input('Which day? Please type a day name (e.g. Monday), or "all"?\n').lower()
         if day == 'all' or day in DAYS:
             break
-        print('That\'s not a valid day. Please type a full day name, or "all".')
+        print('That\'s not a day name. Please type a full day name, or "all".')
 
     print('-'*40)
     return city, month, day
 
 
+# Load data from CSV file
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
