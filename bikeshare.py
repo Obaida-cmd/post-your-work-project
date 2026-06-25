@@ -1,6 +1,9 @@
 import time
 import pandas as pd
 
+# Load dataset for selected city
+# Filter data by month and day
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
